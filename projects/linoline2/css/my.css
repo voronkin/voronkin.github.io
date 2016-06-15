@@ -1,3 +1,9 @@
 .ruslan {
     font-family: 'Ruslan Display', cursive;
 }
+
+.nav > li > a {
+    display: block;
+    padding: 5px;
+    position: relative;
+}
