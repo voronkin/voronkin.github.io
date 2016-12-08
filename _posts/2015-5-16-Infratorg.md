@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Инфраторг 2.0
+title: Инфраторг 2.0d
 tags: projects infratorg
 ---
 
