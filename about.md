@@ -3,6 +3,7 @@ layout: page
 title: Обо мне
 permalink: /about/
 ---
+Меня зовут Александр Воронкин.
 ### Свяжитесь со мной!
 
-[voronkin@outlook.com](mailto:voronkin@outlook.com)
+Электропочта: [voronkin@outlook.com](mailto:voronkin@outlook.com)
