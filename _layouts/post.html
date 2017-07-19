@@ -3,11 +3,7 @@ layout: default
 ---
 <!-- Tags -->
 {% for tag in page.tags %}
-<li><a href="/tags#{{ tag }}" class="tag">{{ tag }}</a></li>
-{% endfor %}
-
-{% for tag in page.tags %}
-<button type="button" class="btn btn-danger btn-sm">
+<button type="button" class="btn btn-warning btn-sm">
 <a href="/tags#{{ tag }}" class="tag">
 <span class="glyphicon glyphicon-tags" aria-hidden="true"></span> {{ tag }}
 </a>
