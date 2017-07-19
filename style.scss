@@ -17,6 +17,18 @@ html {
   font-size: 100%;
 }
 
+.tags {    
+    color: #3f3f3f;
+    display: none;
+    float: left;
+    height: 25px;
+    line-height: 1;
+    margin: 5px;
+    padding: 0 5px 0 8px;
+    position: relative;
+    text-decoration: none;
+}
+
 body {
 	background: $white;
   font: 18px/1.4 $helvetica;
