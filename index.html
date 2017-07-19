@@ -1,6 +1,35 @@
 ---
 layout: default
 ---
+<div class="col-md-2">
+        <div class="row">
+          <h4>bopoha 2.0</h4>
+          <hr>
+          <h4>О блоге</h4>
+          <hr>
+          <p>Java\Scala-инфраструктура. В этом блоге публикуются заметки, переводы статей и </p>        
+        </div>
+        <div class="row">
+        <h4>Тэги</h4>
+        <hr>
+        <button type="button" class="btn btn-warning btn-sm">
+          <span class="glyphicon glyphicon-tags" aria-hidden="true"></span> Java
+        </button>
+        <button type="button" class="btn btn-danger btn-sm">
+          <span class="glyphicon glyphicon-tags" aria-hidden="true"></span> Scala
+        </button>
+        </div>
+        <div class="row">
+        <h4>Контакты</h4>
+        <hr>        
+        <a href="https://twitter.com/voronkin" class="twitter-follow-button" data-show-count="false">@voronkin</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        voronkin@outlook.com
+        
+        </div>
+</div>
+
+
+<div class="col-md-10">
 <div class="posts">
   {% for post in site.posts %}
 
@@ -21,4 +50,5 @@ layout: default
       <a href=  "{{ site.baseurl }}{{ post.url }}" class="read-more">Читать далее</a>
     </article>
   {% endfor %}
+</div>
 </div>
