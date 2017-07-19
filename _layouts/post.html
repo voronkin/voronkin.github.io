@@ -2,11 +2,18 @@
 layout: default
 ---
 <!-- Tags -->
-<ul class="tags">
-  {% for tag in page.tags %}
-  <li><a href="/tags#{{ tag }}" class="tag">{{ tag }}</a></li>
-  {% endfor %}
-</ul>
+{% for tag in page.tags %}
+<li><a href="/tags#{{ tag }}" class="tag">{{ tag }}</a></li>
+{% endfor %}
+
+{% for tag in page.tags %}
+<button type="button" class="btn btn-danger btn-sm">
+<a href="/tags#{{ tag }}" class="tag">
+<span class="glyphicon glyphicon-tags" aria-hidden="true"></span> {{ tag }}
+</a>
+</button>
+{% endfor %}
+
 
 <article class="post">
   <h1>{{ page.title }}</h1>
