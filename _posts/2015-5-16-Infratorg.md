@@ -1,7 +1,13 @@
 ---
 layout: post
-title: Инфраторг 2.0d
-tags: projects infratorg
+title: sbt - установка и основные команды
+tags: scala java tools
 ---
 
+sbt - мощный инструмент для сборки Scala\Java-проектов
+
+Основные возможности:
+- не нужно конфигурировать простые проекты
+- Основанное на Scala определение сборки, которое может использовать все возможности Scala
+- 
 Концепт "Инфраторг 2.0" - [тут](http://bopoha.ru/projects/infratorg2/index.html)
