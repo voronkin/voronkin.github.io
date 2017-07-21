@@ -11,7 +11,7 @@ title                    : "bopoha 2.0"
 title_separator          : "-"
 name                     : "Your Name"
 description              : "Заметки о Java и Scala, саморазвитии и всякой всячине"
-url                      : voronkin.github.io
+url                      : 
 baseurl                  : /
 repository               : voronkin
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
