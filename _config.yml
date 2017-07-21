@@ -81,15 +81,15 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Нытик"
   location         : "Россия, Москва"
-  email            : voronkin@outlook.com
+  email            : "voronkin@outlook.com"
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : alexander.voronkin
+  facebook         : "http://facebook.com/alexander.voronkin"
   foursquare       :
-  github           : voronkin
+  github           : "https://github.com/voronkin"
   gitlab           :
   google_plus      :
   keybase          :
@@ -101,7 +101,7 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          : voronkin
+  twitter          : "https://twitter.com/voronkin"
   vine             :
   weibo            :
   xing             :
@@ -180,7 +180,7 @@ timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
@@ -236,10 +236,10 @@ compress_html:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "_posts/articles"
       type: posts
     values:
-      layout: single
+      layout: post
       author_profile: true
       read_time: true
       comments: true
