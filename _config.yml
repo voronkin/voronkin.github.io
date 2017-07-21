@@ -15,12 +15,12 @@ url                      :
 baseurl                  : /
 repository               : voronkin
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-breadcrumbs              : true # true, false (default)
+breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : voronkin-github-io
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -242,7 +242,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
 
