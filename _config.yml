@@ -246,4 +246,9 @@ defaults:
       share: true
       related: true
 
-theme: jekyll-theme-hacker
+  # Pages
+  - scope:
+      path: _pages
+      type: pages
+    values:
+      layout: page
