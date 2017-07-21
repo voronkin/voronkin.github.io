@@ -11,9 +11,9 @@ author:
   googleplus: 
   github: voronkin
   twitter: voronkin
-  # disqus: your_disqus_forum_shortname
+  disqus: voronkin-github-io
 
-# google_analytics: 'UA-XXXXXXXX-X'
+google_analytics: 'UA-101951871-1'
 
 # Syntax highlighting
 highlightstyle: ''
