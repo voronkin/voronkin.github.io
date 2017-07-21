@@ -1,6 +1,6 @@
 ---
 permalink: /about/
-title: "About Michael Rose"
+title: "About Alexander Voronkin"
 last_modified_at: 2017-05-09T14:34:24-04:00
 excerpt: "Michael Rose is just another boring, tattooed, time traveling designer from Buffalo New York."
 image:
