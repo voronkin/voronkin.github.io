@@ -4,13 +4,13 @@ description: >
   Заметки о Java\Scala, переводы статей, лайфхаки и самоулучшение
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://hitchhiker.ma" # the base hostname & protocol for your site
+url: "voronkin.github.io" # the base hostname & protocol for your site
 
 author:
-  fullname: Motaquillah Maddane
-  googleplus: https://www.google.com/+MotaquillahMaddane
-  github: kronik3r
-  twitter: electrik_frog
+  fullname: Alexander Voronkin
+  googleplus: 
+  github: voronkin
+  twitter: voronkin
   # disqus: your_disqus_forum_shortname
 
 # google_analytics: 'UA-XXXXXXXX-X'
