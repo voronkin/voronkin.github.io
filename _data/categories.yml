@@ -1,8 +1,8 @@
-- slug: design
-  name: Design
+- slug: java
+  name: Java
+
+- slug: scala
+  name: Scala
 
 - slug: tools
   name: Tools
-
-- slug: productivity
-  name: Productivity
