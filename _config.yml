@@ -10,7 +10,7 @@ locale                   : "ru"
 title                    : "bopoha 2.0"
 title_separator          : "-"
 name                     : "Your Name"
-description              : "Заметки о Java\Scala, саморазвитии и всякой всячине"
+description              : "Заметки о Java и Scala, саморазвитии и всякой всячине"
 url                      : voronkin.github.io
 baseurl                  : /
 repository               : voronkin
