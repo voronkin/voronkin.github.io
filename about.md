@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: О блоге
 menu: true
 order: 3
 ---
