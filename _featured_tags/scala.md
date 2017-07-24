@@ -1,7 +1,7 @@
 ---
 layout: list
-title: Hyde
-slug: hyde
+title: Scala
+slug: scala
 menu: true
 order: 1
 description: >
