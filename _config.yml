@@ -18,7 +18,8 @@ tagline:             A pretentious two-column Jekyll theme.
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
 description:         >
-  Blog about Java\Scala: mastering, thoughts, articles
+  Блог Александра Воронкина о Java\Scala, веб-разработке, инструментах и обо всякой всячине.
+  
 
 
 
