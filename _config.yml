@@ -13,15 +13,13 @@ url:                 https://voronkin.github.io
 baseurl:            
 
 # A very short description of your page
-tagline:             A pretentious two-column Jekyll theme.
+tagline:             Java\Scala\tools\self-improvement blog
 
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
 description:         >
-  Блог Александра Воронкина о Java\Scala, веб-разработке, инструментах и обо всякой всячине.
-  
-
-
+  Blogging Driven Learning Technique.
+  WebDev: Java\Scala, tools
 
 # This should be the same author as first entry in `_data/authors.yml`
 author:
