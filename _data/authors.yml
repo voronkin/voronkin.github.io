@@ -58,4 +58,4 @@ voronkin:
     # stumbleupon:     <username>
     # paypal:          <username>
     email:           mailto:voronkin@outlook.com
-    rss:             https://voronkin.github.io/feed.xml
+    #rss:             https://voronkin.github.io/feed.xml
