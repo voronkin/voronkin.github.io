@@ -4,6 +4,7 @@ title: Как сделать новый Scala-проект?
 tags: [scala]
 author: voronkin
 comments: true
+published: false
 ---
 
 Требования: 
