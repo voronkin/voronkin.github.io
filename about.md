@@ -1,17 +1,11 @@
 ---
 layout: about
-title: О блоге
-menu: false
+title: Об авторе
+menu: true
 order: 3
 ---
 
-Скоро здесь будет информация обо мне, Александре Воронкине
+Александр Воронкин.
 
-Днём я звезда современной fashion-индустрии, ночью - маэстро брутального ретрокодинга
-
-git
-Умею делать 
-git add .
-git commit -m "First commmit"
-git push
-git pull
+mailto: alexander.voronkin@gmail.com
+mailto: voronkin@outlook.com
