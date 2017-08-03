@@ -8,5 +8,5 @@ order: 3
 Александр Воронкин.
 
 #### Электропочта:
-*[alexander.voronkin@gmail.com](mailto:alexander.voronkin@gmail.com)
-*[voronkin@outlook.com](mailto:voronkin@outlook.com)
+* [alexander.voronkin@gmail.com](mailto:alexander.voronkin@gmail.com)
+* [voronkin@outlook.com](mailto:voronkin@outlook.com)
