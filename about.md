@@ -4,9 +4,6 @@ title: Об авторе
 menu: true
 order: 3
 ---
-
-Александр Воронкин.
-
 #### Электропочта:
 * [alexander.voronkin@gmail.com](mailto:alexander.voronkin@gmail.com)
 * [voronkin@outlook.com](mailto:voronkin@outlook.com)
