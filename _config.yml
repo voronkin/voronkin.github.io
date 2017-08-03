@@ -18,8 +18,9 @@ tagline:             Java\Scala\tools\self-improvement blog
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
 description:         >
-  Blogging Driven Learning Technique.
-  WebDev: Java\Scala, tools
+  Подъём со дна через Scala\Java и саморазвитие.
+  Заметки о программировании, лайфхаках и самоулучшению.
+  Ну и всякая мелочь.
 
 # This should be the same author as first entry in `_data/authors.yml`
 author:
