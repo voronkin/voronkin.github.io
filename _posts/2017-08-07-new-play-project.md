@@ -6,5 +6,6 @@ author: voronkin
 comments: true
 published: true
 ---
-
-sbt new play framework/play-scala-seed.g8
+Если установлен sbt, введите в командной строке 
+``sbt new playframework/play-scala-seed.g8``
+и следуйте дальнейшим инструкциям.
