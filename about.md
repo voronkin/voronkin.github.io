@@ -1,7 +1,7 @@
 ---
 layout: about
 title: Об авторе
-menu: true
+menu: false
 order: 3
 ---
 #### Электропочта:
