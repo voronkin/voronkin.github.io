@@ -10,7 +10,8 @@ published: true
 - установленный sbt
 
 #### Новый Play-проект
-> sbt new playframework/play-scala-seed.g8``
+> sbt new playframework/play-scala-seed.g8
+
 и следуйте дальнейшим инструкциям.
 
 #### Новый Scala-проект

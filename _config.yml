@@ -52,7 +52,7 @@ google_analytics: "UA-101951871-1"
 disqus_shortname: "voronkin-github-io"
 
 # This text will appear in the footer of every page. Markdown enabled.
-copyright:           '&copy; 2017. All rights reserved.'
+copyright:           '&copy; 2017. Все права защищены.'
 
 # Format of the permalinks
 permalink:           pretty
