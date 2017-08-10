@@ -2,7 +2,7 @@
 layout: list
 title: Самоулучшение
 slug: selfimprovement
-menu: false
+menu: true
 order: 2
 description: >
   Хватит. Пора подняться со дна и наладить свою жизнь. В этой категории будут
