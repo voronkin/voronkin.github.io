@@ -1,6 +1,6 @@
 ---
 layout: list
-title: '18 минут: как повысить концентрацию, перестать отвлекаться и сделать действительно важные дела'
+title: 18minutes
 slug: 18minutes
 menu: true
 order: 3
