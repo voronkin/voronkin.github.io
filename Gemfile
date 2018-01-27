@@ -1,8 +1,4 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 3.4"
-gem "jekyll-paginate", "~> 1.1"
-gem "jekyll-feed", "~> 0.9"
-gem "jekyll-sitemap", "~> 1.0"
-gem "jekyll-redirect-from", "~> 0.12"
-gem "classifier-reborn"
+gem 'jekyll', '3.1.2' # this is the Jekyll version we are working with
+# gem 'nokogiri', '1.6.7.2' # Nokogiri is a dependency that might cause errors if it's not added to the script
