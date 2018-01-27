@@ -66,12 +66,12 @@ facebook:
 
 
 # gitlab on site
-gitlab:
-  owner_url: https://gitlab.com/lorepirri
+#gitlab:
+#  owner_url: https://gitlab.com/lorepirri
 
 # github on site
 github:
-  owner_url: https://github.com/lorepirri
+  owner_url: https://github.com/voronkin
 
 
 # translation
