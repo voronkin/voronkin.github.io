@@ -1,9 +1,15 @@
 ---
-layout: about
-title: Об авторе
-menu: false
-order: 3
+layout: page
+title: About
+permalink: /about/
 ---
-#### Электропочта:
-* [alexander.voronkin@gmail.com](mailto:alexander.voronkin@gmail.com)
-* [voronkin@outlook.com](mailto:voronkin@outlook.com)
+
+Some information about you!
+
+### More Information
+
+A place to include any other types of information that you'd like to include about yourself.
+
+### Contact me
+
+[email@domain.com](mailto:email@domain.com)

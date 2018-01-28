@@ -2,30 +2,16 @@
 layout: default
 ---
 
-{% include article-author-bio-small.html %}
+<article class="post">
+  <h1>{{ page.title }}</h1>
 
-<article itemscope itemtype="http://schema.org/BlogPosting">
-
-  <div itemprop="articleBody">
-    {% include facebook-like-post.html %}
-    <br />
+  <div class="entry">
     {{ content }}
-    <br />
-    {% include facebook-like-post.html %}
-    {% include facebook-comments.html %}
   </div>
 
-  {% if site.disqus.shortname %}
-    {% include disqus_comments.html %}
-  {% endif %}
+  <div class="date">
+    Written on {{ page.date | date: "%B %e, %Y" }}
+  </div>
 
-  {% if site.facebook.pixelcode %}
-  <!-- Facebook Pixel Code -->
-  <script>
-  fbq('track', 'ViewContent');
-  </script>
-  <!-- End Facebook Pixel Code -->
-  {% endif %}
-
-
+  {% include disqus.html %}
 </article>
