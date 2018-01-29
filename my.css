@@ -1,0 +1,23 @@
+.rotor
+{
+	background: #4169E1;
+	border-radius: 50%;
+	color: #FFF;
+	font-size: 28px;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+
+}
+.rotor:hover
+{
+	background: #303030;
+	-webkit-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform: rotate(360deg);
+}

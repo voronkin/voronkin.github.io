@@ -1,10 +1,10 @@
 ---
 layout: page
-title: About
+title: Обо мне
 permalink: /about/
 ---
 
-Some information about you!
+Меня зовут Александр Воронкин.
 
 ### More Information
 
