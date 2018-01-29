@@ -9,7 +9,7 @@ name: "voronkin"
 description: Scala, webdev, lifehacks
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: images/logo.png
+avatar: http://voronkin.github.io/images/logo.png
 
 #
 # Flags below are optional
