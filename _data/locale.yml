@@ -1,9 +1,7 @@
 NAV:
   HOME:
     en:      "Home"
-    zh:      "主页"
-    zh-Hans: "主页"
-    zh-Hant: "主頁"
+    ru:      "Главная"    
   ALL:
     en:      "All"
     zh:      "归档"
