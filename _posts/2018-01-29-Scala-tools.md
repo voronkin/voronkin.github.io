@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Полезные ссылки Scala
-categories: Scala 
+tags: Scala
 ---
 
 ### Язык
