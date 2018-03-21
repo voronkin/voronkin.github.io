@@ -1,15 +1,17 @@
 ---
 layout: page
-title: Обо мне
-permalink: /about/
+titles:
+  en: About
+  zh: 关于
+  zh-Hans: 关于
+  zh-Hant: 關於
+key: page-about
 ---
 
-Меня зовут Александр Воронкин.
+Just say something about yourself. :+1:
 
-### More Information
+{% highlight javascript %}
+(() => console.log('hello, world!'))();
+{% endhighlight %}
 
-A place to include any other types of information that you'd like to include about yourself.
-
-### Связаться со мной
-
-[alexander.voronkin@gmail.com](mailto:alexander.voronkin@gmail.com)
+## title

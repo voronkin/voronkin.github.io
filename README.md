@@ -1,120 +1,186 @@
-> March, 2016: If you're on an old version of Jekyll Now and run into a) build warnings or b) syntax highlighting issues caused by [Jekyll 3 and GitHub Pages updates](https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0), just :sparkles:[update your _config.yml](https://github.com/barryclark/jekyll-now/pull/445/files):sparkles: and you'll be set!
+# [TeXt Theme](https://github.com/kitian616/jekyll-TeXt-theme)
 
-# Jekyll Now
+[![Gem Version](https://img.shields.io/gem/v/jekyll-text-theme.svg)](https://github.com/kitian616/jekyll-TeXt-theme/releases)
+[![license](https://img.shields.io/github/license/kitian616/jekyll-TeXt-theme.svg)](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/LICENSE)
+[![Travis](https://img.shields.io/travis/kitian616/jekyll-TeXt-theme.svg)](https://travis-ci.org/kitian616/jekyll-TeXt-theme)
 
-**Jekyll** is a static site generator that's perfect for GitHub hosted blogs ([Jekyll Repository](https://github.com/jekyll/jekyll))
+![TeXt Theme](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.png)
 
-**Jekyll Now** makes it easier to create your Jekyll blog, by eliminating a lot of the up front setup.
+![TeXt Theme Details](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-details.png)
 
-- You don't need to touch the command line
-- You don't need to install/configure ruby, rvm/rbenv, ruby gems :relaxed:
-- You don't need to install runtime dependencies like markdown processors, Pygments, etc
-- If you're on Windows, this will make setting up Jekyll a lot easier
-- It's easy to try out, you can just delete your forked repository if you don't like it
+[Demo](https://tianqi.name/jekyll-TeXt-theme/) | [English (Beta)](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/README-en.md)
 
-In a few minutes you'll be set up with a minimal, responsive blog like the one below giving you more time to spend on writing epic blog posts!
+TeXt is a succinct theme for blogging.
 
-![Jekyll Now Theme Screenshot](/images/jekyll-now-theme-screenshot.jpg "Jekyll Now Theme Screenshot")
+TeXt 是针对博客的一款简洁的主题，它虽然简洁但并不简单。它参考了 iOS 11 的风格，有大而突出的标题和圆润的按钮及卡片。
 
-## Quick Start
+## Features
 
-### Step 1) Fork Jekyll Now to your User Repository
+- 响应式
+- 分页（[jekyll-paginate](https://github.com/jekyll/jekyll-paginate)）
+- 文章目录
+- 文章标签
+- 阅读次数统计（[LeanCloud](https://leancloud.cn/)）
+- Emoji（[Jemoji](https://github.com/jekyll/jemoji)）
+- 评论（[Disqus](https://disqus.com/), [gitalk](https://gitalk.github.io/)）
+- Google Analytics
+- 联系方式设置（Email, Facebook, Twitter, 微博, 知乎……）
+- Web 语意化
+- 网站图标的自动化工具（[gulp-svg2png](https://www.npmjs.com/package/gulp-svg2png), [gulp-to-ico](https://www.npmjs.com/package/gulp-to-ico)）
+- Color Theme
+- 数学公式（[MathJax](https://www.mathjax.org/)）
+- 流程图， 序列图，甘特图（[mermaid](https://mermaidjs.github.io/)）
+- 柱状图，折线图，饼图，雷达图（[chartjs](http://www.chartjs.org/)）
+- RSS（[jekyll-feed](https://github.com/jekyll/jekyll-feed)）
+- 多语言支持（English | 简体中文 | 繁體中文）
 
-Fork this repo, then rename the repository to yourgithubusername.github.io.
+下面简要的介绍下使用的方法，当然如果你对 Jekyll 比较了解可以直接看后面的高级部分，这是该主题增加的一些特有功能。
 
-Your Jekyll blog will often be viewable immediately at <https://yourgithubusername.github.io> (if it's not, you can often force it to build by completing step 2)
+## How To Use
 
-![Step 1](/images/step1.gif "Step 1")
+最简单的方法是直接 **Fork** 到你的 GitHub 仓库然后更改其名称为 `<username>.github.io`，稍等一会儿访问 `https://<username>.github.io` 即可看到一个空的博客页，接下来你可以把它 Clone 到本地修改后提交。
 
-### Step 2) Customize and view your site
+当然你也可以在 [Releases 页面](https://github.com/kitian616/jekyll-TeXt-theme/releases) 下载最新版本源码，或直接 Clone 代码到本地。
 
-Enter your site name, description, avatar and many other options by editing the _config.yml file. You can easily turn on Google Analytics tracking, Disqus commenting and social icons here too.
+另外，因为每个版本都是作为一个 [Gem](https://rubygems.org/gems/jekyll-text-theme) 发布的，所以你也可以通过 Jekyll 的主题系统安装该主题，这种方式可以很方便的升级保持最新，但不支持 GitHub 的自动编译，详见 [Jekyll: 主题](http://jekyllcn.com/docs/themes/)。项目的 ./test 目录就是一个使用主题系统的例子。
 
-Making a change to _config.yml (or any file in your repository) will force GitHub Pages to rebuild your site with jekyll. Your rebuilt site will be viewable a few seconds later at <https://yourgithubusername.github.io> - if not, give it ten minutes as GitHub suggests and it'll appear soon
+### 配置
 
-> There are 3 different ways that you can make changes to your blog's files:
+在 ./\_config.yml 文件里按照说明加上你的信息，例如你的名字和联系方式，网站的标题和描述等等。
 
-> 1. Edit files within your new username.github.io repository in the browser at GitHub.com (shown below).
-> 2. Use a third party GitHub content editor, like [Prose by Development Seed](http://prose.io). It's optimized for use with Jekyll making markdown editing, writing drafts, and uploading images really easy.
-> 3. Clone down your repository and make updates locally, then push them to your GitHub repository.
+在 ./about.md 中写上你的简单介绍，例如我叫小明之类的。
 
-![_config.yml](/images/config.png "_config.yml")
+### 写博客
 
-### Step 3) Publish your first blog post
+使用 Markdown 编写文章，位于 ./\_posts 目录（需要自行创建）下，文件名采用日期 + 标题的形式，形如 `2017-02-02-Very-Long-Title`，可参考 ./test/\_posts 目录。
 
-Edit `/_posts/2014-3-3-Hello-World.md` to publish your first blog post. This [Markdown Cheatsheet](http://www.jekyllnow.com/Markdown-Style-Guide/) might come in handy.
+可以在头信息里设置文章的一些基本信息，包括标题、发布时间和标签等。当然，如果你不设置标题和发布时间，系统会使用文件名中的标题和发布时间，详见 [Jekyll: 头信息](http://jekyllcn.com/docs/frontmatter/)。当然，该主题在原有的基础上增加了一些属性，这在后面会讲到。
 
-![First Post](/images/first-post.png "First Post")
+#### 摘要
 
-> You can add additional posts in the browser on GitHub.com too! Just hit the + icon in `/_posts/` to create new content. Just make sure to include the [front-matter](http://jekyllrb.com/docs/frontmatter/) block at the top of each new blog post and make sure the post's filename is in this format: year-month-day-title.md
+该主题的摘要有两种模式——TEXT 模式和 HTML 模式。 当 ./\_config.yml 配置项 `excerpt_type` 的值为 `text` 时是 TEXT 模式，为 `html` 时是 HTML 模式，**默认为 TEXT 模式**。
 
-## Local Development
+TEXT 模式的摘要为纯文本，会过滤掉一切非文本元素（标题，链接，列表，表格，图片等等），且截取前 350 个字符。
 
-1. Install Jekyll and plug-ins in one fell swoop. `gem install github-pages` This mirrors the plug-ins used by GitHub Pages on your local machine including Jekyll, Sass, etc.
-2. Clone down your fork `git clone https://github.com/yourusername/yourusername.github.io.git`
-3. Serve the site and watch for markup/sass changes `jekyll serve`
-4. View your website at http://127.0.0.1:4000/
-5. Commit any changes and push everything to the master branch of your GitHub user repository. GitHub Pages will then rebuild and serve your website.
+HTML 模式的摘要为 HTML 文档，与文章内容一致，并且 **默认展示整篇文章的内容**。若想控制摘要内容，需要在文章中想要显示到的地方加上 `<!--more-->`，详见 [Jekyll: 文章摘要](http://jekyll.com.cn/docs/posts/#_6)。
 
-## Moar!
+> 提示：为了首页更好的展示效果，个人还是推荐使用 HTML 模式，并自己在文章中加上 `<!--more-->`。
 
-I've created a more detailed walkthrough, [**Build A Blog With Jekyll And GitHub Pages**](http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/) over at the Smashing Magazine website. Check it out if you'd like a more detailed walkthrough and some background on Jekyll. :metal:
+### 安装环境（非必须）
 
-It covers:
+具体可参考 [Jekyll: 安装](http://jekyllcn.com/docs/installation/)。
 
-- A more detailed walkthrough of setting up your Jekyll blog
-- Common issues that you might encounter while using Jekyll
-- Importing from Wordpress, using your own domain name, and blogging in your favorite editor
-- Theming in Jekyll, with Liquid templating examples
-- A quick look at Jekyll 2.0’s new features, including Sass/Coffeescript support and Collections
+请确保你的电脑上配置好了 Ruby 开发环境。(ruby, bundle, Command Line Tools(macOS) ...)
 
-## Jekyll Now Features
+首先安装 github-pages（包含了 Jekyll 以及一些插件），在项目根目录执行 `bundle install` 即可安装。
 
-✓ Command-line free _fork-first workflow_, using GitHub.com to create, customize and post to your blog  
-✓ Fully responsive and mobile optimized base theme (**[Theme Demo](http://jekyllnow.com)**)  
-✓ Sass/Coffeescript support using Jekyll 2.0  
-✓ Free hosting on your GitHub Pages user site  
-✓ Markdown blogging  
-✓ Syntax highlighting  
-✓ Disqus commenting  
-✓ Google Analytics integration  
-✓ SVG social icons for your footer  
-✓ 3 http requests, including your avatar  
+推荐安装 Node.js 环境，可以获得更好的开发体验。
 
-✘ No installing dependencies
-✘ No need to set up local development  
-✘ No configuring plugins  
-✘ No need to spend time on theming  
-✘ More time to code other things ... wait ✓!  
+### 本地服务（非必须）
 
-## Questions?
+如果你安装了 Node.js 环境，只需要在项目根目录运行 `npm run dev` 即可启动本地服务。
 
-[Open an Issue](https://github.com/barryclark/jekyll-now/issues/new) and let's chat!
+如果没有安装 Node.js 环境，则是：
 
-## Other forkable themes
+```console
+bundle exec jekyll serve -H 0.0.0.0
+```
 
-You can use the [Quick Start](https://github.com/barryclark/jekyll-now#quick-start) workflow with other themes that are set up to be forked too! Here are some of my favorites:
+命令执行成功后在浏览器中访问 [http://localhost:4000/](http://localhost:4000/) 即可看到页面。
 
-- [Hyde](https://github.com/poole/hyde) by MDO
-- [Lanyon](https://github.com/poole/lanyon) by MDO
-- [mojombo.github.io](https://github.com/mojombo/mojombo.github.io) by Tom Preston-Werner
-- [Left](https://github.com/holman/left) by Zach Holman
-- [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) by Michael Rose
-- [Skinny Bones](https://github.com/mmistakes/skinny-bones-jekyll) by Michael Rose
+### 部署与提交
 
-## Credits
+推荐部署到 GitHub Pages 上，简单而免费，详见 [Jekyll: GitHub Pages](http://jekyllcn.com/docs/github-pages/)。
 
-- [Jekyll](https://github.com/jekyll/jekyll) - Thanks to its creators, contributors and maintainers.
-- [SVG icons](https://github.com/neilorangepeel/Free-Social-Icons) - Thanks, Neil Orange Peel. They're beautiful.
-- [Solarized Light Pygments](https://gist.github.com/edwardhotchkiss/2005058) - Thanks, Edward.
-- [Joel Glovier](http://joelglovier.com/writing/) - Great Jekyll articles. I used Joel's feed.xml in this repository.
-- [David Furnes](https://github.com/dfurnes), [Jon Uy](https://github.com/jonuy), [Luke Patton](https://github.com/lkpttn) - Thanks for the design/code reviews.
-- [Bart Kiers](https://github.com/bkiers), [Florian Simon](https://github.com/vermluh), [Henry Stanley](https://github.com/henryaj), [Hun Jae Lee](https://github.com/hunjaelee), [Javier Cejudo](https://github.com/javiercejudo), [Peter Etelej](https://github.com/etelej), [Ben Abbott](https://github.com/jaminscript), [Ray Nicholus](https://github.com/rnicholus), [Erin Grand](https://github.com/eringrand), [Léo Colombaro](https://github.com/LeoColomb), [Dean Attali](https://github.com/daattali), [Clayton Errington](https://github.com/cjerrington), [Colton Fitzgerald](https://github.com/coltonfitzgerald), [Trace Mayer](https://github.com/sunnankar) - Thanks for your [fantastic contributions](https://github.com/barryclark/jekyll-now/commits/master) to the project!
+如果你是下载或者 Clone 的源码，那么你需要在 GitHub 上建立一个 Repository，然后把项目代码 push 到其对应的分支上（如果以 `<username>.github.io` 命名则对应分支为 `master` ，其他的为 `gh-pages`，详见 [Github Pages: Configuring a publishing source for GitHub Pages](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/)）。
 
-## Contributing
+如果你是通过 Jekyll 的主题系统安装的，那么你需要把本地编译好的代码 push 到上文所说的对应分支上。
 
-Issues and Pull Requests are greatly appreciated. If you've never contributed to an open source project before I'm more than happy to walk you through how to create a pull request.
+当然你也可以部署到到其他地方。
 
-You can start by [opening an issue](https://github.com/barryclark/jekyll-now/issues/new) describing the problem that you're looking to resolve and we'll go from there.
+## 高级
 
-I want to keep Jekyll Now as minimal as possible. Every line of code should be one that's useful to 90% of the people using it. Please bear that in mind when submitting feature requests. If it's not something that most people will use, it probably won't get merged. :guardsman:
+### 多语言
+
+该主题支持 English、简体中文和繁體中文，只需在 ./\_config.yml 中设置对应 `lang` 项即可。设置后整个网站的主题文字（导航，阅读更多，文章数统计，日期格式，文章协议等等）会变为设置的语言，多语言的配置文件为 ./_data/locale.yml，你可以自由的修改和增加语言。
+
+另外，该主题也支持对某篇文章（页面）单独设置语言，只需在 Markdown 或页面 HTML 文件的头信息中设置 `lang` 项，其优先级高于 ./\_config.yml 中设置的值。设置后该文章（页面）的主题文字会变为头信息中设置的语言。
+
+> 提示：当前的 `lang` 值可选值为 en(English), zh(简体中文), zh-Hans(简体中文), zh-Hant(繁體中文)。
+
+### Color Theme
+
+颜色主题位于文件夹 ./\_sass/colors 中，修改 ./\_config.yml 中的 text_color_theme 项为以下值即可更换颜色主题，默认主题为 default。
+
+| `default` | `dark` | `forest` |
+| --- |  --- | --- |
+| ![default](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/colors_default.png) | ![dark](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/colors_dark.png) | ![forest](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/colors_forest.png) |
+
+| `ocean` | `chocolate` | `orange` |
+| --- |  --- | --- |
+| ![ocean](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/colors_ocean.png) | ![chocolate](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/colors_chocolate.png) | ![orange](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/colors_orange.png) |
+
+更多颜色主题敬请期待。
+
+### 网站图标
+
+该主题自带了一个“银杏叶”图标，你可以把它替换为自己的图标。网站的图标位于 ./favicon.ico 和 ./assets/images/logo 目录下。你会看到 logo 目录中有很多的 png 文件和一个 svg 矢量图文件。那些 png 图片实际上就是根据 svg 矢量图生成的不同大小的图片，这些图片是一些场景可能会用到的大图标，像 iOS 和 Android 的固定到屏幕和 Windows 10 的磁贴。
+
+该主题提供了一个自动化脚本能将 svg 矢量图自动生成 favicon 和 png 文件。你所要做的是：
+
+1. 安装 Node.js 环境
+
+2. 在项目根目录执行 `npm i` 命令
+
+3. 替换 ./assets/images/logo 目录下的 logo.svg 文件
+
+4. 执行 `npm run artwork` 命令，此时 favicon 和 png 便会替换为新 logo.svg 生成的文件
+
+当然如果要追求各个尺寸下图标的显示效果，那还得对不同尺寸的图片进行修改和优化。
+
+### 评论系统
+
+目前支持 Disqus 和 gitalk 评论系统，优先使用 Disqus。
+
+#### Disqus
+
+在 ./\_config.yml 文件的 `disqus.shortname` 项填上你在 [Disqus](https://disqus.com/) 上为网站建立的 site 对应的 shortname 即可，需要注意的是 Disqus 在大陆是无法直接访问的。
+
+#### gitalk
+
+在 ./\_config.yml 文件的 `gitalk` 的子项（`clientID`,`clientSecret`, `repository`, `owner`, `admin`）填上 gitalk 的对应参数 即可，详见 [gitalk 中文文档](https://github.com/gitalk/gitalk/blob/master/readme-cn.md)。
+
+> 注意：使用评论系统必须在文章的头信息中设置 key 值（可用字符集：`字母`、`数字` 及 `- _ : .`）。
+
+### 阅读量统计
+
+在 ./\_config.yml 文件 `leancloud` 的 `app_id`、`app_key`、`app_class` 项分别填上你在 [LeanCloud](https://leancloud.cn) 为网站建立的应用的对应参数。
+
+> 注意：使用阅读量统计必须在文章的头信息中设置 key 值（可用字符集：`字母`、`数字` 及 `- _ : .`）。
+
+### Google Analytics
+
+在 ./\_config.yml 文件的 `ga_tracking_id` 项填上你在 [Google Analytics](https://analytics.google.com) 上为网站建立的媒体资源对应的跟踪 ID。
+
+### Markdown 头信息增强
+
+除了 Jekyll 官方的头信息外，该主题增加了一些头信息。
+
+| 变量名称       | 可选值          | 描述 |
+| ---           | ---           | --- |
+| key           |               | 评论系统和阅读量统计使用的文章标识符，如果未设置则评论和统计无效。可用字符集：`字母`、`数字` 及 `- _ : .` |
+| lang          | en/zh/zh-Hans/zh-Hant | 该文章的语言，其优先级高于  ./\_config.yml 中设置的值 |
+| modify_date   |               | 该文章的修改时间，不影响首页文章排序（`date` 代表发表时间，会影响文章排序） |
+| comment       | true/false    | 该文章是否能够评论，默认为 true（当然你也可以通过不设置 key 来实现，但是这样的话统计也失效了） |
+| mathjax       | true/false    | 该文章是否需要使用 MathJax 公式，默认为 false（此时只会在该文章页面中解析 MathJax 公式。当然你也可以配置 _config.yml 中的 `mathjax` 项为 true，让网站全局支持 MathJax 公式） |
+| mermaid       | true/false    | 该文章是否需要使用 Mermaid 绘制流程图 |
+| chart         | true/false    | 该文章是否需要使用 Chart 绘制图标 |
+
+### 其他资源
+
+在 ./\_includes/icon/social 目录下有很多的社交产品图标，例如 Behance、Flickr、QQ、微信等，方便修改和使用。
+
+## 示例
+
+- [Demo](https://tianqi.name/jekyll-TeXt-theme/)
+- [Qi's blog](https://tianqi.name/blog/)
