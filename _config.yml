@@ -24,6 +24,11 @@ nav_lists:
       ru: Обо мне      
     url: /about.html
 
+  - titles:
+      en: metwodotzero
+      ru: metwodotzero 
+    url: /metwodotzero.html
+
 # paths:
 #   base: /
 #   home: /
