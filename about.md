@@ -4,6 +4,7 @@ titles:
   en: About
   ru: Обо мне
 key: page-about
+comment: false
 ---
 
 Приветствую вас!

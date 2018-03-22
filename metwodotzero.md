@@ -4,7 +4,7 @@ titles:
   en: metwodotzero
   ru: metwodotzero
 key: page-metwodotzero
-comments: false
+comment: false
 ---
 
 Добро пожаловать в проект "metwodotzero"!
