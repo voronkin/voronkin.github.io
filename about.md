@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: page
 titles:  
   en: About
   ru: Обо мне

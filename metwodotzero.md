@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: page
 titles:  
   en: metwodotzero
   ru: metwodotzero
