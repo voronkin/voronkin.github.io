@@ -17,7 +17,7 @@ text_color_theme: dark #eg: default | dark | forest | ocean | chocolate | orange
 baseurl: /
 title: "Блог Воронкина"
 description: > #this means to ignore newlines until "nav_lists:"
-  Scala, Java, дневники разработки и всякая чушь.
+  Всё о Scala и чуть-чуть о своих проектах.
 nav_lists:
   - titles:
       en: About
@@ -47,7 +47,7 @@ timezone: Europe/Moscow #see https://en.wikipedia.org/wiki/List_of_tz_database_t
 author:
   name: Alexander Voronkin
   email:  alexander.voronkin@gmail.com
-  facebook:  alexander.voronkin
+  #facebook:  alexander.voronkin
   twitter:  voronkin
   github: voronkin
   # googleplus:  #your Google+ username
