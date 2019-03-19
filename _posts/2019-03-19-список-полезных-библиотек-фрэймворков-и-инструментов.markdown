@@ -1,8 +1,6 @@
 ---
-title: Список полезных библиотек, фрэймворков и инструментов
+title: Awesome Scala - список библиотек и инструментов
 layout: post
 ---
 
-Awesome Scala
-
-https://github.com/lauris/awesome-scala
+[Awesome Scala](https://github.com/lauris/awesome-scala)
