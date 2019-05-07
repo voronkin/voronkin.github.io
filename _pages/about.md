@@ -2,6 +2,7 @@
 title: "Об авторе"
 excerpt: "Информация об авторе"
 sitemap: true
+layout: single
 author_profile: true
 permalink: /about.html
 ---
