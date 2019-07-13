@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "Александр Воронкин"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Java\Scala developer"
+  bio              : "Java\\Scala developer"
   location         : "Москва, Россия"
   email            :
   links:
