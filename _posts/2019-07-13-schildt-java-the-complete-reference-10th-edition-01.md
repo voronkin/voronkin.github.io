@@ -3,7 +3,7 @@ title: "Java. Полное руководство, 10-е издание (Гер�
 categories:
   - java
 tags:
-  - java, briefly
+  - java briefly
 ---
 
 Книгу можно приобрести вот [здесь](http://www.labirint.ru/books/660316/?ref_contact=GoZRYAEz)
