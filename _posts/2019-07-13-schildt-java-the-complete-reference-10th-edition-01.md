@@ -6,4 +6,4 @@ tags:
   - java, briefly
 ---
 
-Книгу можно приобрести вот здесь http://www.labirint.ru/books/660316/?ref_contact=GoZRYAEz
+Книгу можно приобрести вот [здесь](http://www.labirint.ru/books/660316/?ref_contact=GoZRYAEz)
