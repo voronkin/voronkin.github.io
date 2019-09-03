@@ -19,7 +19,7 @@ locale                   : "ru-RU"
 title                    : "Воронье гнездо"
 title_separator          : "-"
 name                     : "Блог Александра Воронкина"
-description              : "Scala, FP, Webdev / дневник разработки"
+description              : "Webdev & self-improvement"
 url                      : "https://voronkin.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "Александр Воронкин"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Java\\Scala developer"
+  bio              : "JVM Language enthusiast "
   location         : "Москва, Россия"
   email            :
   links:
