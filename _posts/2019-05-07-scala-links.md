@@ -1,5 +1,6 @@
 ---
 title: "Полезные ссылки на Scala-ресурсы"
+published: false
 categories:
   - scala
 tags:
