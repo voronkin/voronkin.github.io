@@ -1,7 +1,7 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Kotlin"
+    url: /kotlin.html
   - title: "Об авторе"
     url: /about.html
   # - title: "Sample Posts"
