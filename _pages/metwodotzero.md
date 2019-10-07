@@ -1,6 +1,6 @@
 ---
-title: "Проект "Metwodotzero""
-excerpt: ""
+title: "Проект \"Metwodotzero\""
+excerpt: "zzz"
 sitemap: true
 layout: single
 author_profile: true
