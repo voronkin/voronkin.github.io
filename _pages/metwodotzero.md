@@ -1,5 +1,5 @@
 ---
-title: "Проект /"Metwodotzero/""
+title: "Проект "Metwodotzero""
 excerpt: ""
 sitemap: true
 layout: single
