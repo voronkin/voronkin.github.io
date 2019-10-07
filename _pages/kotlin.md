@@ -8,3 +8,4 @@ permalink: /kotlin.html
 ---
 
 Kotlin - язык нового поколения, основанный на JVM и вобравший в себя лучшее из мира Java и Scala
+
