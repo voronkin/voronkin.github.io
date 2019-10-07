@@ -2,6 +2,8 @@
 main:
   - title: "Kotlin"
     url: /kotlin.html
+  - title: "Metwodotzero"
+    url: /metwodotzero.html
   - title: "Об авторе"
     url: /about.html
   # - title: "Sample Posts"
