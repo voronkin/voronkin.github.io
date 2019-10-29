@@ -12,14 +12,14 @@
           <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path | relative_url }}" alt=""></a>
         {% endunless %}
         <a class="site-title" href="{{ '/' | relative_url }}">{{ site.masthead_title | default: site.title }}</a>
-        <ul>
+        <ul class="visible-links">
           {% for nav in site.data.nav %}
             {% if nav.subcategories != null %}
-              <li>
+            <li class="masthead__menu-item">
                 <a href="{{ site.url }}{{ nav.url }}">{{ nav.title }} ▼</a>
                 <ul>
                 {% for subcategory in nav.subcategories %}
-                  <li><a href="{{ site.url }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
+                <li class="masthead__menu-item"><a href="{{ site.url }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
                 {% endfor %}
                 </ul>
               </li>
@@ -28,7 +28,7 @@
                  <a href="{{ nav.url }}">{{ nav.title }}</a>
                </li>
             {% else %} 
-              <li>
+            <li class="masthead__menu-item">
                 <a href="{{ site.url }}{{ nav.href }}">{{ nav.title }}</a>
               </li>
             {% endif %}
