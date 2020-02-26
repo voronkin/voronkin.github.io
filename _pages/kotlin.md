@@ -1,12 +1,12 @@
 ---
-title: "Kotlin"
-excerpt: "Всё о языке Kotlin"
+title: "База знаний"
+excerpt: "База знаний"
 sitemap: true
 layout: single
 author_profile: true
-permalink: /kotlin.html
+permalink: /kb.html
 ---
-
+Здесь находится 
 
 Kotlin - язык нового поколения, основанный на JVM и вобравший в себя лучшее из мира Java и Scala.
 

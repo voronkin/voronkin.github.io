@@ -1,7 +1,7 @@
 # main links
 main:
-  - title: "Kotlin"
-    url: /kotlin.html
+  - title: "База знаний"
+    url: /kb.html
   - title: "Проекты"
     url: /projects.html
   - title: "Об авторе"
