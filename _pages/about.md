@@ -6,5 +6,4 @@ layout: single
 author_profile: true
 permalink: /about.html
 ---
-
-Тут будет информация обо мне, Александре Воронкине.
+Моё резюме - [(html)](https://voronkin.github.io/cv.html),[(pdf)](https://voronkin.github.io/cv.pdf)
