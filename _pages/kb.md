@@ -6,13 +6,19 @@ layout: single
 author_profile: true
 permalink: /kb.html
 ---
-Здесь находится 
+Здесь находятся ссылки и краткое описание фреймфорков, инструментов 
 
+# JVM
 Kotlin - язык нового поколения, основанный на JVM и вобравший в себя лучшее из мира Java и Scala.
 
-#### Главные ссылки
+## Главные ссылки
 - [Официальный сайт языка Kotlin](https://kotlinlang.org/)
 - [Среда разработки IntelliJ IDEA](https://www.jetbrains.com/idea/)
 
-##### Фрэймворки и библиотеки
+## Фрэймворки и библиотеки
 - [Ktor - построение асинхронных серверных и клиентских приложений](https://ktor.io)
+
+# JavaScript
+## Инструменты
+- [Fake Online REST API for Testing and Prototyping](https://jsonplaceholder.typicode.com/)
+
