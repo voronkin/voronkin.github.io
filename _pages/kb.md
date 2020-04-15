@@ -3,7 +3,7 @@ title: "База знаний"
 excerpt: "База знаний"
 sitemap: true
 layout: single
-author_profile: true
+author_profile: false
 permalink: /kb.html
 ---
 Здесь находятся ссылки и краткое описание фреймфорков, инструментов 
