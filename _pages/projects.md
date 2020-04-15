@@ -3,7 +3,7 @@ title: "Проекты"
 excerpt: "Персональные проекты в разработке и завершённые"
 sitemap: true
 layout: single
-author_profile: true
+author_profile: false
 permalink: /projects.html
 ---
 ## Игровые
@@ -12,3 +12,4 @@ permalink: /projects.html
 
 ## Неигровые
 - ["Cookaracha"](https://voronkin.github.io/zvd.html)
+- ["Metwodotzero"](https://voronkin.github.io/metwodotzero.html)
