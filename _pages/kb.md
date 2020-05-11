@@ -22,3 +22,6 @@ Kotlin - язык нового поколения, основанный на JVM
 ## Инструменты
 - [Fake Online REST API for Testing and Prototyping](https://jsonplaceholder.typicode.com/)
 
+
+## Библиотеки
+- [Promise based HTTP-client for the browser and node.js](https://github.com/axios/axios)

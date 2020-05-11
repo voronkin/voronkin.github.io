@@ -1,9 +1,13 @@
 ---
 title: "План изучения JavaScript"
-published: true
+published: false
 categories:
 tags:
 - JavaScript
 - self-improvement
 ---
 
+Теоретический материал:
+- 
+
+Практика
