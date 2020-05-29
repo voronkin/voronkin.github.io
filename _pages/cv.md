@@ -35,3 +35,8 @@ permalink: /cv.html
 
 ### Иностранные языки
 Английский - разговорно
+
+## Неформально о себе и своих soft-skills
+
+Kotlin
+JavaScript
