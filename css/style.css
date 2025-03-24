@@ -1,0 +1,173 @@
+body {
+    background-color: #eef3ec;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1.text-center {
+    color: #000000;
+}
+
+p, .nav-link, span {
+    color: #000000;
+}
+
+/* Hero Section с параллаксом */
+#hero {
+    background: url('../img/index/hero.webp') center/cover no-repeat;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-attachment: scroll;
+}
+
+#hero .overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+#hero h1,
+#hero p {
+    z-index: 2;
+    color: #f0f0f0;
+}
+
+#hero .container {
+    z-index: 2;
+    position: relative;
+}
+
+/* Zoom effect on hover */
+/* Оставляем общий эффект zoom */
+.zoom {
+    transition: transform 0.3s ease;
+}
+
+.zoom:hover {
+    transform: scale(1.05);
+}
+
+/* Отключаем zoom внутри блоков привычек */
+.habit-block .zoom {
+    transition: none;
+}
+
+.habit-block .zoom:hover {
+    transform: none;
+}
+
+/* Button color */
+.btn-warning {
+    background-color: #d0e562;
+    border: none;
+}
+
+.btn-warning:hover {
+    background-color: #b6d369;
+}
+
+/* Разделы */
+.section {
+    padding: 60px 0;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #000000;
+    font-size: 2.5rem;
+}
+
+/* Блоки привычек */
+.habit-block {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.habit-block h5 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.habit-block p {
+    color: #000000;
+}
+
+/* Header & Footer */
+header, #header {
+    background-color: #a8b94e;
+}
+#header a {
+    color: #000 !important;
+    text-decoration: none;
+}
+#header a:hover {
+    color: #000;
+}
+
+#footer {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #a8b94e;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#footer span {
+    color: #000;
+    text-align: left;
+}
+
+#footer .d-flex {
+    justify-content: flex-start !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #hero {
+        background-attachment: scroll;
+        height: auto;
+        padding: 80px 0;
+    }
+
+    .nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .input-group {
+        flex-direction: column;
+    }
+
+    .input-group .form-control {
+        margin-bottom: 10px;
+    }
+
+    .section h2 {
+        font-size: 2rem;
+    }
+
+    #footer {
+        justify-content: center;
+        text-align: center;
+    }
+
+    #footer span {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 769px) {
+    .section h2 {
+        font-size: 2.5rem;
+    }
+}
